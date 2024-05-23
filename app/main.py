@@ -10,7 +10,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://session-11-frontend.vercel.app/",  # Add your frontend's EC2 IP here
+    "https://session-11-frontend.vercel.app",  # Add your frontend's EC2 IP here
 ]
 
 app.add_middleware(
